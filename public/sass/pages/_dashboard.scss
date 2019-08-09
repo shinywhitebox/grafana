@@ -1,4 +1,7 @@
+$dashboard-gf-form-color: #727272;
+
 .dashboard-container {
+  //background-color: #f6f6f6;
   padding: $dashboard-padding $dashboard-padding 0 $dashboard-padding;
   width: 100%;
   height: 100%;
@@ -34,6 +37,9 @@ div.flot-text {
 
   .panel-container {
     border: none;
+    //.panel-container--no-title ~ .panel-header {
+    //
+    //}
   }
 
   .panel-menu-toggle,
@@ -120,4 +126,53 @@ div.flot-text {
 
 .dashboard-loading__text {
   font-size: $font-size-lg;
+}
+
+.template-variable--dashboard,
+.dashboard-row__title,
+.variable-value-link {
+  font-size: 14px;
+  border: none;
+  background-color: unset;
+  color: $dashboard-gf-form-color;
+  font-weight: unset;
+  padding: 4px;
+  text-transform: capitalize;
+}
+
+.dashboard-timepicker-wrapper * {
+  background: unset;
+}
+
+.gf-form-select-box__menu {
+  background: #fff;
+}
+
+.navbar-button--tv {
+  border-left: 1px solid #f6f6f6;
+  border-right: 1px solid #f6f6f6;
+  border-radius: 0;
+  padding: 0 20px;
+}
+
+.piechart-legend-table .piechart-legend-series:nth-child(odd) {
+  background: unset !important;
+}
+
+.piechart-legend-table th {
+  font-size: 14px !important;
+  color: #666666 !important;
+  font-weight: normal !important;
+}
+
+.piechart-legend-alias {
+  font-size: 14px !important;
+}
+
+.panel-info-corner-inner {
+  border-left: 28px solid #666666 !important;
+}
+
+.panel-info-corner {
+  color: #fff;
 }

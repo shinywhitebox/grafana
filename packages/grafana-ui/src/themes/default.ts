@@ -4,7 +4,7 @@ const theme: GrafanaThemeCommons = {
   name: 'Grafana Default',
   typography: {
     fontFamily: {
-      sansSerif: "'Roboto', 'Helvetica Neue', Arial, sans-serif",
+      sansSerif: "Arial, 'Roboto', 'Helvetica Neue', sans-serif",
       monospace: "Menlo, Monaco, Consolas, 'Courier New', monospace",
     },
     size: {
@@ -26,7 +26,7 @@ const theme: GrafanaThemeCommons = {
     weight: {
       light: 300,
       regular: 400,
-      semibold: 500,
+      semibold: 600,
     },
     lineHeight: {
       xs: 1,

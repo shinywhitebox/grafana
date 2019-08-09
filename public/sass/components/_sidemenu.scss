@@ -20,7 +20,7 @@ $mobile-menu-breakpoint: md;
   }
 
   @include media-breakpoint-up($mobile-menu-breakpoint) {
-    background: $side-menu-bg;
+    background: #fff;
     height: auto;
     box-shadow: $side-menu-shadow;
     position: relative;
@@ -92,6 +92,11 @@ $mobile-menu-breakpoint: md;
   border: 1px solid transparent;
   text-align: center;
 
+  .sidemenu-icon > .fa-plus {
+    color: #666;
+    font-size: 26px;
+  }
+
   img {
     border-radius: 50%;
     width: 28px;
@@ -146,19 +151,19 @@ $mobile-menu-breakpoint: md;
   white-space: nowrap;
   background-color: $side-menu-item-hover-bg;
   font-size: 17px;
-  color: #ebedf2;
+  //color: #ebedf2;
 }
 
 .side-menu-header-link {
   // Removes left-brand-border-gradient from link
-  color: #ebedf2 !important;
+  color: #52545c !important;
   border: none !important;
   padding: 0 !important;
 }
 
 .dropdown-menu--sidemenu > li > .side-menu-header-link:hover {
   // Makes sure it looks good on light theme
-  color: #fff !important;
+  color: #52545c !important;
   background-color: $side-menu-item-hover-bg !important;
 }
 
