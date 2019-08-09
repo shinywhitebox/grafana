@@ -1,3 +1,5 @@
+// For some reason the standard light icons show as dark mode, or weirdo-mode.
+// Reapply them here, so that we definitely use the right icon.  This makes the sidebar look sane.
 .sidemenu {
   .gicon-dashboard {
     background-image: url('../img/icons_light_theme/icon_dashboard.svg');
@@ -28,6 +30,7 @@
     }
   }
 
+  // vert bars left/right of the "cycle view mode" button could do with less intensity.
   .navbar-button--tv {
     border-left: 1px solid #777777;
     border-right: 1px solid #777777;
