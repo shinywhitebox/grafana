@@ -1,0 +1,35 @@
+.sidemenu {
+  .gicon-dashboard {
+    background-image: url('../img/icons_light_theme/icon_dashboard.svg');
+  }
+  .gicon-alert {
+    background-image: url('../img/icons_light_theme/icon_alert.svg');
+  }
+  .gicon-cog {
+    background-image: url('../img/icons_light_theme/icon_cog.svg');
+  }
+  .gicon-question {
+    background-image: url('../img/icons_light_theme/icon_question.svg');
+  }
+  .gicon-explore {
+    background-image: url('../img/icons_light_theme/icon_explore.svg');
+  }
+  .gicon-shield {
+    background-image: url('../img/icons_light_theme/icon_shield.svg');
+  }
+}
+
+// This makes an otherwise dull grey button (the cog) look white
+.navbar-buttons {
+  .navbar-button {
+    .gicon-cog,
+    .gicon-add-panel {
+      filter: brightness(5);
+    }
+  }
+
+  .navbar-button--tv {
+    border-left: 1px solid #777777;
+    border-right: 1px solid #777777;
+  }
+}
